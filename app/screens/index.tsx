@@ -1,0 +1,15 @@
+export {default as Intro} from './Intro';
+export {default as Login}  from './Login';
+export {default as Register} from './Register';
+export {default as OTP} from './OTP';
+export {default as Home} from './Home';
+export {default as Profile} from './Profile';
+export {default as Cart} from './Cart';
+export {default as Wishlist} from './Wishlist';
+export {default as Category} from './Category' ;
+export {default as ViewProduct} from './ViewProduct' ;
+export {default as Checkout} from './Checkout' ;
+export {default as ConfirmOrder} from './ConfirmOrder';
+export {default as MyOrders} from './MyOrders';
+export {default as ViewOrder} from './ViewOrder';
+export {default as SearchResults} from './SearchResults';

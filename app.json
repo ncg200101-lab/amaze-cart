@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Amaze-Cart",
+    "slug": "Amaze-Cart",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#090979"
+      },
+      "package": "com.app.Amazecart",
+      "googleServicesFile": "./assets/google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font","@react-native-firebase/app",
+      "@react-native-firebase/auth"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1600cbef-1ea5-4b7f-80cb-2a40ef963c4a"
+      }
+    }
+  }
+}
